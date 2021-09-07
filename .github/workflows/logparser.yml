@@ -28,7 +28,7 @@ jobs:
       - name: Setup git repo & docker-compose up 
         run: |
           mkdir -p /home/testuser/kupchanko_workflow && cd /home/testuser/kupchanko_workflow
-          git clone https://github.com/pyanush/devops_crash.git || cd /home/testuser/kupchanko_workflow/devops_crash
+          git clone https://github.com/MXY-UA/MXY-UA || cd /home/testuser/kupchanko_workflow/devops_crash
           cd /home/testuser/kupchanko_workflow/devops_crash
           git pull
           git checkout mykhailo_kupchanko_04101988
